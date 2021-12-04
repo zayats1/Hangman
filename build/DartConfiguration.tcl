@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/bogdandev/exercise/stupid_game
-BuildDirectory: /home/bogdandev/exercise/stupid_game/build
+SourceDirectory: /home/bogdandev/exercise/Hangman
+BuildDirectory: /home/bogdandev/exercise/Hangman/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/bogdandev/exercise/stupid_game"
+ConfigureCommand: "/usr/bin/cmake" "/home/bogdandev/exercise/Hangman"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -57,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /bin/x86_64-linux-gnu-g++-11

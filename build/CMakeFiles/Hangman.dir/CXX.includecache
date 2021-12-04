@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/bogdandev/exercise/stupid_game/Hangman.cpp
-iostream
--
-iterator
--
-vector
--
-array
--
-string
--
-stdlib.h
--
-Hangman.hpp
-/home/bogdandev/exercise/stupid_game/Hangman.hpp
-
-/home/bogdandev/exercise/stupid_game/Hangman.hpp
-array
--
-string
--
-
-/home/bogdandev/exercise/stupid_game/main.cpp
-iostream
--
-Hangman.hpp
-/home/bogdandev/exercise/stupid_game/Hangman.hpp
-

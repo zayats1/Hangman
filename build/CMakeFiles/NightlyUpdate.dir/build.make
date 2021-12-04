@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bogdandev/exercise/stupid_game
+CMAKE_SOURCE_DIR = /home/bogdandev/exercise/Hangman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bogdandev/exercise/stupid_game/build
+CMAKE_BINARY_DIR = /home/bogdandev/exercise/Hangman/build
 
 # Utility rule file for NightlyUpdate.
 
@@ -90,6 +90,6 @@ CMakeFiles/NightlyUpdate.dir/clean:
 .PHONY : CMakeFiles/NightlyUpdate.dir/clean
 
 CMakeFiles/NightlyUpdate.dir/depend:
-	cd /home/bogdandev/exercise/stupid_game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdandev/exercise/stupid_game /home/bogdandev/exercise/stupid_game /home/bogdandev/exercise/stupid_game/build /home/bogdandev/exercise/stupid_game/build /home/bogdandev/exercise/stupid_game/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bogdandev/exercise/Hangman/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bogdandev/exercise/Hangman /home/bogdandev/exercise/Hangman /home/bogdandev/exercise/Hangman/build /home/bogdandev/exercise/Hangman/build /home/bogdandev/exercise/Hangman/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyUpdate.dir/depend
 

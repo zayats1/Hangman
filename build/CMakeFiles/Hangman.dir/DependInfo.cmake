@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bogdandev/exercise/stupid_game/Hangman.cpp" "/home/bogdandev/exercise/stupid_game/build/CMakeFiles/Hangman.dir/Hangman.cpp.o"
-  "/home/bogdandev/exercise/stupid_game/main.cpp" "/home/bogdandev/exercise/stupid_game/build/CMakeFiles/Hangman.dir/main.cpp.o"
+  "/home/bogdandev/exercise/Hangman/Hangman.cpp" "/home/bogdandev/exercise/Hangman/build/CMakeFiles/Hangman.dir/Hangman.cpp.o"
+  "/home/bogdandev/exercise/Hangman/main.cpp" "/home/bogdandev/exercise/Hangman/build/CMakeFiles/Hangman.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

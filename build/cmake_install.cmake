@@ -1,4 +1,4 @@
-# Install script for directory: /home/bogdandev/exercise/stupid_game
+# Install script for directory: /home/bogdandev/exercise/Hangman
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bogdandev/exercise/stupid_game/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bogdandev/exercise/Hangman/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

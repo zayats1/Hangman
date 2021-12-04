@@ -1,6 +1,6 @@
 #pragma once
 
-#include <array>
+#include <vector>
 #include <string>
 
 class Hangman {
@@ -19,7 +19,7 @@ private:
 
     const std::string Filler = "*";
 
-    const std::array<std::string, 4> Words = {
-         "oak", "birch" , "pine", "fir"
+    const std::vector<std::string> Words = {
+         "oak", "birch" , "pine", "fir", "baobab","chestnut"
     };
 };

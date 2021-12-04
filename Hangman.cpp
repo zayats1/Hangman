@@ -1,7 +1,6 @@
 #include <iostream>
 #include <iterator>
 #include <vector>
-#include <array>
 #include <string>
 #include <stdlib.h>
 
